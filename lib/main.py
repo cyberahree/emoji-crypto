@@ -84,7 +84,7 @@ class EmojiEncode:
         if identified_emojis is not None:
             for i in range(len(identified_emojis)):
                 correct_emoji = identified_emojis[i]
-                combinations[i].add(emoji)
+                combinations[i].add(correct_emoji)
 
                 for emoji in VALID_EMOJIS:
                     if emoji == correct_emoji:
