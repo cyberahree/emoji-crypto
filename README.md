@@ -2,6 +2,8 @@
 
 This Python script ([`lib/main.py`](lib/main.py)) implements a simple text encoding and decoding mechanism using emoji-based passwords. It also includes functionality to attempt password recovery under certain conditions.
 
+Additionally, this was born out of solving a CTF challenge, so yeah; this isn't really anything cool I came up with.
+
 ```bash
 [>] Encrypted: '🥔📌🥵🦼🙗📸🙯🚀🥄📜🚅👾🦍💬🥻💭🥞🦦🙭📥🙸🙂🥅📜🙶💸🥇👿🥲📢🦖🦧🙀📜🙶🙸🥇💯😯👯🤴👮🤴💫🥍🧰'
 [>] Decrypted: 'ARIII{ar1_w0z_h323_hj42_hj42_hj42_hj42!!!!!1!}'
