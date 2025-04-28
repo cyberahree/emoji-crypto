@@ -149,7 +149,7 @@ if __name__ == "__main__":
     print(f"[!] Attempting to recover original text with known prefix")
     recovered = encoder.known_prefix_recovery(
         encrypted,
-        "ZeroDays{ar",
+        "ARIII{ar",
         encoder._passlen
     )
 
